@@ -6,7 +6,7 @@ This directory contains Python scripts that serve as introductory examples of ba
 
 ## Files
 
-- [**2-print.py**](./python_hello_world/2-print.py)
+- [**2-print.py**](./2-print.py)
   - **Description**: Prints a string with special characters (quotes) included.
 
 - [**3-print_number.py**](./python_hello_world/3-print_number.py)
