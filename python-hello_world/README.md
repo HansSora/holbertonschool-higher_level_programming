@@ -9,7 +9,7 @@ This directory contains Python scripts that serve as introductory examples of ba
 - [**2-print.py**](https://github.com/HansSora/holbertonschool-higher_level_programming/blob/main/python-hello_world/2-print.py)
   - **Description**: Prints a string with special characters (quotes) included.
 
-- [**3-print_number.py**](./python_hello_world/3-print_number.py)
+- [**3-print_number.py**](3-print_number.py)
   - **Description**: Prints a formatted string with a number and a fixed message.
 
 - [**4-print_float.py**](./python_hello_world/4-print_float.py)
@@ -30,6 +30,3 @@ This directory contains Python scripts that serve as introductory examples of ba
 - [**9-easter_egg.py**](./python_hello_world/9-easter_egg.py)
   - **Description**: Prints the Zen of Python, a collection of software design principles by Tim Peters.
 
----
-
-This README provides a clear overview and direct links to each file, making it easier for users to navigate and understand the content of the `python_hello_world` directory.
