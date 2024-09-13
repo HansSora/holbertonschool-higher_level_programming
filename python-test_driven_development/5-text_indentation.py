@@ -1,15 +1,11 @@
-#!/usr/bin/python3
-"""Python program to add 2 integers"""
-
-
 def text_indentation(text):
-    """Function to print a square
+    """Function to print a text with two new lines after each '.', ':', or '?'.
 
         Args:
-            text (str): text that is to be printed
+            text (str): text that is to be processed.
 
-        Return:
-            Returns a indented text
+        Raises:
+            TypeError: if text is not a string.
     """
 
     if not isinstance(text, str):
@@ -19,8 +15,8 @@ def text_indentation(text):
     while i < len(text):
         print(text[i], end="")
         if text[i] in ['.', ':', '?']:
-            if i != len(text) - 1 and text[i + 1] == " ":
+            # Skip any subsequent spaces after punctuation
+            while i + 1 < len(text) and text[i + 1] == " ":
                 i += 1
             print("\n")
-
         i += 1
