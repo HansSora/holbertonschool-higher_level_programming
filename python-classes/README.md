@@ -1,47 +1,43 @@
 # Python Classes Project
 
-Welcome to the Python Classes project! This project contains a series of Python scripts demonstrating various implementations of a `Square` class. Each script builds upon the previous one, adding new features and improving the class functionality.
+Welcome to the Python Classes project! This repository contains a series of Python scripts demonstrating various implementations of a `Square` class. Each script builds upon the previous one, adding new features and improving the class functionality.
 
-## Directory Structure
+## Scripts Overview
 
-The project directory `python-classes` contains the following files:
+### [0-square.py](python-classes/0-square.py)
 
-- [0-square.py](#0-squarepy)
-- [1-square.py](#1-squarepy)
-- [2-square.py](#2-squarepy)
-- [3-square.py](#3-squarepy)
-- [4-square.py](#4-squarepy)
-- [5-square.py](#5-squarepy)
-- [6-square.py](#6-squarepy)
+- **Description**: Contains a basic definition of a `Square` class with no additional attributes or methods.
 
-## File Descriptions
+### [1-square.py](python-classes/1-square.py)
 
-### 0-square.py
+- **Description**: Introduces an `__init__` method to the `Square` class that allows setting the size of the square.
 
-This file contains a basic definition of a `Square` class with no additional attributes or methods.
+### [2-square.py](python-classes/2-square.py)
 
-### 1-square.py
+- **Description**: Updates the `Square` class to include validation for the size attribute, ensuring it is an integer and non-negative.
 
-This file introduces an `__init__` method to the `Square` class that allows setting the size of the square.
+### [3-square.py](python-classes/3-square.py)
 
-### 2-square.py
+- **Description**: Extends the `Square` class to include an `area` method that calculates and returns the area of the square.
 
-In this file, the `Square` class is updated to include validation for the size attribute, ensuring it is an integer and non-negative.
+### [4-square.py](python-classes/4-square.py)
 
-### 3-square.py
+- **Description**: Adds a property for `size` with getter and setter methods and includes the `area` method.
 
-This file extends the `Square` class to include an `area` method that calculates and returns the area of the square.
+### [5-square.py](python-classes/5-square.py)
 
-### 4-square.py
+- **Description**: Further enhances the `Square` class by adding a `my_print` method to print a square made of `#` characters.
 
-The `Square` class in this file adds a property for `size` with getter and setter methods and includes the `area` method.
+### [6-square.py](python-classes/6-square.py)
 
-### 5-square.py
+- **Description**: Includes a `position` attribute to manage the square’s position and adjusts the `my_print` method accordingly.
 
-This file further enhances the `Square` class by adding a `my_print` method to print a square made of `#` characters.
+## Contributing
 
-### 6-square.py
+Feel free to submit issues, forks, or pull requests. Contributions are welcome!
 
-In this final implementation, the `Square` class includes a `position` attribute to manage the square’s position and adjust the output of the `my_print` method accordingly.
+## Contact
+
+For any questions or feedback, please reach out to me or open an issue in this repository.
 
 ---
