@@ -8,4 +8,4 @@ def lookup(obj):
         Return:
             List containing variables and attributes
     """
-    return list(obj)
+    return dir(obj)
