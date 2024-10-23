@@ -1,4 +1,4 @@
---Create a table second_table in the database hbtn_0c_0 and add multiple rows.
+-- Create a table called second_table
 
 CREATE TABLE IF NOT EXISTS second_table (
   id INT,
