@@ -1,13 +1,14 @@
 #!/usr/bin/python3
+"""
+SQL learning
+"""
 
-"""SQL learning"""
 
 import sys
 import MySQLdb
 
 
 if __name__ == '__main__':
-    """SQL learning"""
 
 
     db = MySQLdb.connect(host='localhost',
